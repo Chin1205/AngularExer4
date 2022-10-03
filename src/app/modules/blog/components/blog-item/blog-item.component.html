@@ -1,0 +1,21 @@
+<div class="this-card">
+    <div class="this-item">
+        <b>ID:</b> {{blog?.id}}
+    </div>
+    <div class="this-item">
+        <b>Title: </b> {{blog?.title}}
+    </div>
+    <div class="this-item">
+        <b>Description: </b> {{blog?.description}}
+    </div>
+    <div class="this-item">
+        <b>Author: </b>{{blog?.author}}
+    </div>
+    <div class="this-item">
+        <b>Comments: </b>{{blog?.comments}}
+    </div>
+    <div class="center">
+        <button class="delete" (click)="delete(24)">DELETE</button>
+        <button class="edit" (click)="edit(24)">EDIT</button>
+    </div>
+</div> 

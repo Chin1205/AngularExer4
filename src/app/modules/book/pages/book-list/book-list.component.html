@@ -1,0 +1,5 @@
+<h2>BOOKS</h2>
+<app-command-bar></app-command-bar>
+<div *ngFor="let book of books" class="this-list">
+    <app-book-item [book]="book" (Emitter)="loveAction($event)"></app-book-item>
+</div>
